@@ -12,12 +12,21 @@ code {
     monospace;
 }
 
-nav{
-  background-color: aliceblue;
-  color: black;
+nav.primary-nav, .secondary{
+  background-color: aliceblue;  
   padding: 16px 32px;
 }
-nav a{
+nav.primary-nav a{
   margin-right: 16px;
-  font-size: 24px;
+  font-size: 24px;  
+  color: black;
 }
+.secondary a{
+  margin-right: 16px;
+  font-size: 16px;
+  color: purple;
+}
+/* nav a.active{
+  text-decoration: none;
+  font-weight: bold;
+} */
